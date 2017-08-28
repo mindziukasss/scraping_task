@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "72b5dee01fcc61103b31f8e6e3f5cf7d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1990,6 +1990,50 @@
                 "fixtures"
             ],
             "time": "2017-08-15T16:48:10+00:00"
+        },
+        {
+            "name": "gidlov/copycat",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gidlov/copycat.git",
+                "reference": "05d85b199c4a1ede862a1f5487514dcc854bfc3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gidlov/copycat/zipball/05d85b199c4a1ede862a1f5487514dcc854bfc3d",
+                "reference": "05d85b199c4a1ede862a1f5487514dcc854bfc3d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Gidlov\\Copycat": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL"
+            ],
+            "authors": [
+                {
+                    "name": "Klas Gidlöv",
+                    "email": "info@gidlov.com",
+                    "homepage": "http://gidlov.com/"
+                }
+            ],
+            "description": "A universal scraping tool that can be used for all kinds of data collection. You can decide from where and what you want. All with regular expression. More info on the Github page.",
+            "homepage": "http://github.com/gidlov/copycat",
+            "keywords": [
+                "imdb",
+                "laravel",
+                "scrape",
+                "scraping"
+            ],
+            "time": "2017-08-04T07:28:15+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
