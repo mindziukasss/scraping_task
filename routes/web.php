@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::group(['prefix' => 'info'], function () {
+    Route::get('/', ['as' => 'app.info.index', 'uses' => 'ScrapingInfoController@index']);
+});
