@@ -9,8 +9,7 @@ class ScrapingInfoController extends Controller
 {
     public function index()
     {
-        $info = file_get_contents('https://www.norwegian.com/uk/booking/flight-tickets/select-flight/?D_City=OSL&A_City=RIX&TripType=1&D_Day=01&D_Month=201710&D_SelectedDay=01&R_Day=01&R_Month=201710&R_SelectedDay=01&IncludeTransit=false&AgreementCodeFK=-1&CurrencyCode=GBP&rnd=90232&processid=49841');
-//        dd($info);
+//     $info = file_get_contents('https://www.norwegian.com/uk/booking/flight-tickets/select-flight/?D_City=OSL&A_City=RIX&TripType=1&D_Day=01&D_Month=201710&D_SelectedDay=01&R_Day=01&R_Month=201710&R_SelectedDay=01&IncludeTransit=false&AgreementCodeFK=-1&CurrencyCode=GBP&rnd=90232&processid=49841');
 
         $cc = new Copycat;
         $cc->setCURL(array(
@@ -20,11 +19,22 @@ class ScrapingInfoController extends Controller
             CURLOPT_USERAGENT => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.17 (KHTML, like Gecko) Chrome/24.0.1312.57 Safari/537.17',
         ));
 
-        $cc->matchAll(array(
-            'price' => '/title="GBP">(.*?)</ms',))->URLs('https://www.norwegian.com/uk/booking/flight-tickets/select-flight/?D_City=OSL&A_City=RIX&TripType=1&D_Day=01&D_Month=201710&D_SelectedDay=01&R_Day=01&R_Month=201710&R_SelectedDay=01&IncludeTransit=false&AgreementCodeFK=-1&CurrencyCode=GBP&rnd=90232&processid=49841');
-        $info = $cc->get();
-        $info['price'] = $info;
+        for ($day = 1; $day < 15; $day++) {
 
-        return view('info',$info);
+            $cc->match(array(
+                'date' => '!<td nowrap="nowrap" class="layoutcell" align="right">&nbsp;(.*?)<\/td>!',
+                'departure' => '!<td class="depdest" title="Flight DY1072"><div class="content emphasize">(.*?)<\/div><\/td>!',
+                'arrival' => '!<td class="arrdest"><div class="content emphasize">(.*?)<\/div><\/td>!',
+                'Details' => '!<td class="duration"><div class="content">Duration:(.*?)<\/div><\/td>!'))
+                ->matchAll(array(
+                    'price' => '/title="GBP">(.*?)</ms',
+                ))->URLs('https://www.norwegian.com/uk/booking/flight-tickets/select-flight/?D_City=OSL&A_City=RIX&TripType=1&D_Day=' . $day . '&D_Month=201710&D_SelectedDay=01&R_Day=01&R_Month=201710&R_SelectedDay=01&IncludeTransit=false&AgreementCodeFK=-1&CurrencyCode=GBP&rnd=90232&processid=49841');
+
+            $info[] = $cc->get();
+        }
+
+        $info['data'] = $info;
+
+        return view('info', $info);
     }
 }
