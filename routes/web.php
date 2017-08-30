@@ -17,4 +17,6 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'info'], function () {
     Route::get('/', ['as' => 'app.info.index', 'uses' => 'ScrapingInfoController@index']);
+    Route::get('/data', ['as' => 'app.alldata.index', 'uses' => 'ScrapingInfoController@alldata']);
+
 });

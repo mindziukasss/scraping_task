@@ -1,0 +1,376 @@
+[
+  [
+    {
+      "date": "Sunday&nbsp;1. Oct 2017",
+      "departure": "13:10",
+      "arrival": "15:40",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "82.60",
+        "67.60"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Monday&nbsp;2. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "73.10",
+        "58.10"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Tuesday&nbsp;3. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "58.80",
+        "43.80"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Wednesday&nbsp;4. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Thursday&nbsp;5. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "82.60",
+        "67.60"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Friday&nbsp;6. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "82.60",
+        "67.60"
+      ]
+    }
+  ],
+  [
+    {
+      "date": false,
+      "departure": false,
+      "arrival": false,
+      "Details": false,
+      "price": []
+    }
+  ],
+  [
+    {
+      "date": "Sunday&nbsp;8. Oct 2017",
+      "departure": "13:10",
+      "arrival": "15:40",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "58.80",
+        "43.80"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Monday&nbsp;9. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "53.00",
+        "38.00"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Tuesday&nbsp;10. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "53.00",
+        "38.00"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Wednesday&nbsp;11. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "53.00",
+        "38.00"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Thursday&nbsp;12. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "63.50",
+        "48.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Friday&nbsp;13. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "101.60",
+        "86.60"
+      ]
+    }
+  ],
+  [
+    {
+      "date": false,
+      "departure": false,
+      "arrival": false,
+      "Details": false,
+      "price": []
+    }
+  ],
+  [
+    {
+      "date": "Sunday&nbsp;15. Oct 2017",
+      "departure": "13:10",
+      "arrival": "15:40",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Monday&nbsp;16. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Tuesday&nbsp;17. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Wednesday&nbsp;18. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Thursday&nbsp;19. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "58.80",
+        "43.80"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Friday&nbsp;20. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "92.10",
+        "77.10"
+      ]
+    }
+  ],
+  [
+    {
+      "date": false,
+      "departure": false,
+      "arrival": false,
+      "Details": false,
+      "price": []
+    }
+  ],
+  [
+    {
+      "date": "Sunday&nbsp;22. Oct 2017",
+      "departure": "13:10",
+      "arrival": "15:40",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "73.10",
+        "58.10"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Monday&nbsp;23. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Tuesday&nbsp;24. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Wednesday&nbsp;25. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Thursday&nbsp;26. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "58.80",
+        "43.80"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Friday&nbsp;27. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "92.10",
+        "77.10"
+      ]
+    }
+  ],
+  [
+    {
+      "date": false,
+      "departure": false,
+      "arrival": false,
+      "Details": false,
+      "price": []
+    }
+  ],
+  [
+    {
+      "date": "Sunday&nbsp;29. Oct 2017",
+      "departure": "11:40",
+      "arrival": "14:10",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "53.00",
+        "38.00"
+      ]
+    }
+  ],
+  [
+    {
+      "date": "Monday&nbsp;30. Oct 2017",
+      "departure": "11:20",
+      "arrival": "13:50",
+      "Details": " 1h 30m",
+      "price": [
+        "201.00",
+        "43.50",
+        "28.50"
+      ]
+    }
+  ]
+]
