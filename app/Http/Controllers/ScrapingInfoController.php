@@ -81,7 +81,7 @@ class ScrapingInfoController extends Controller
                     'departure' => '!<td class="depdest" title="Flight DY1072"><div class="content emphasize">(.*?)<\/div><\/td>!',
                     'arrival' => '!<td class="arrdest"><div class="content emphasize">(.*?)<\/div><\/td>!',
                     'details' => '!<td class="duration"><div class="content">Duration:(.*?)<\/div><\/td>!',
-                    'price' => '/title="EUR">(.*?)</ms',
+                    'price' => '!<td align="right" valign="bottom" class="rightcell totalfarecell" nowrap="nowrap">(.*?)<\/td>!',
                     'tax' => '!<td class="rightcell emphasize" align="right" valign="bottom">(.*?)<\/td>!'))
                     ->URLs('https://www.norwegian.com/en/booking/flight-tickets/select-flight/?D_City=OSL&A_City=RIX&TripType=1&D_SelectedDay=' . $day . '&D_Day=' . $day . '&D_Month=201710&R_SelectedDay=' . $day . '&R_Day=01&R_Month=201710&dFare=' . $pricesRound . '&IncludeTransit=false&AgreementCodeFK=-1&CurrencyCode=EUR');
 
@@ -89,8 +89,10 @@ class ScrapingInfoController extends Controller
 
             }
         }
+        file_put_contents(storage_path('data.json'), json_encode($data));
 
-        dd($data);
+
+//        dd($data);
 
     }
 
